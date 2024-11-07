@@ -1,0 +1,13 @@
+.flex .box-shadow{
+    box-shadow: 2px black;
+}
+
+.max-width{
+    width: 1200px;
+}
+
+.para-width{
+    width: 900px;
+    margin: auto;
+    padding-top: 15px;
+}
