@@ -204,7 +204,7 @@ const Body = () => {
             Elevate your beauty and wellness business with Glosifi.
           </p>
         </div>
-        <div className="content">
+        <div className="content pt-6">
           <div className="two-col flex justify-between gap-10 items-center bg-slate-200 p-10 rounded-2xl">
             <div className="left-content text-left w-1/2">
               <h2 className="text-2xl font-semibold font-serif  capitalize">
