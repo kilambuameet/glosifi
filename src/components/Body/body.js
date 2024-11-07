@@ -5,7 +5,9 @@ import ThirdImg from "../../assets/nail.png";
 import FourthImg from "../../assets/parlorIcon.png";
 import FifthImg from "../../assets/skincare.png";
 import SixthImg from "../../assets/img3.png";
-import SeventhImg from "../../assets/search-icon.png"
+import SeventhImg from "../../assets/search-icon.png";
+import EighthImg from "../../assets/bannerBG.png";
+import NinthImg from "../../assets/info-banner.png"
 import "./body.css";
 
 const Body = () => {
@@ -137,44 +139,102 @@ const Body = () => {
           </p>
         </div>
         <div className="flex mt-8 max-width m-auto">
-        <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
-          <div className="flex gap-4">
-            <img src={SeventhImg} className="w-8 h8"/>
-            <h1 className="text-lg text-bold">Search</h1>
+          <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
+            <div className="flex gap-4">
+              <img src={SeventhImg} className="w-8 h8" />
+              <h1 className="text-lg text-bold">Search</h1>
+            </div>
+            <div className="text-lg text-gray-500">
+              <p>Choose a individual or a salon nearby for service.</p>
+            </div>
+            <div className="border-2 border-cyan-200">
+              <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-red-300 rounded-full">
+                1
+              </h1>
+            </div>
           </div>
-          <div className="text-lg text-gray-500">
-            <p>Choose a individual or a salon nearby for service.</p>
+          <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
+            <div className="flex gap-4">
+              <img src={SeventhImg} className="w-8 h8" />
+              <h1 className="text-lg text-bold">Search</h1>
+            </div>
+            <div className="text-lg text-gray-500">
+              <p>Choose a individual or a salon nearby for service.</p>
+            </div>
+            <div className="border-2 border-cyan-200">
+              <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-red-100 rounded-full">
+                2
+              </h1>
+            </div>
           </div>
-          <div className="border-2 border-cyan-200">
-          <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-red-300 rounded-full">1</h1>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
-          <div className="flex gap-4">
-            <img src={SeventhImg} className="w-8 h8"/>
-            <h1 className="text-lg text-bold">Search</h1>
-          </div>
-          <div className="text-lg text-gray-500">
-            <p>Choose a individual or a salon nearby for service.</p>
-          </div>
-          <div className="border-2 border-cyan-200">
-          <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-red-100 rounded-full">2</h1>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
-          <div className="flex gap-4">
-            <img src={SeventhImg} className="w-8 h8"/>
-            <h1 className="text-lg text-bold">Search</h1>
-          </div>
-          <div className="text-lg text-gray-500">
-            <p>Choose a individual or a salon nearby for service.</p>
-          </div>
-          <div className="border-2 border-cyan-200">
-          <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-gray-200 rounded-full">3</h1>
+          <div className="flex flex-col gap-3 items-center w-1/5 m-auto justify-center">
+            <div className="flex gap-4">
+              <img src={SeventhImg} className="w-8 h8" />
+              <h1 className="text-lg text-bold">Search</h1>
+            </div>
+            <div className="text-lg text-gray-500">
+              <p>Choose a individual or a salon nearby for service.</p>
+            </div>
+            <div className="border-2 border-cyan-200">
+              <h1 className="p-5 w-5 h-2.5 flex justify-center items-center bg-gray-200 rounded-full">
+                3
+              </h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      {/* new section starts */}
+
+      <div className="Banner w-full h-auto my-20 relative">
+        <img src={EighthImg} alt="backgroundBg" className="w-full h-auto " />
+        <h1 className="absolute left-96 top-1/2 z-10 text-3xl font-medium font-serif text-white w-1/3">
+          Solve all your needs with a single software solution
+        </h1>
+      </div>
+
+      {/* new section starts*/}
+
+      <div className="max-width m-auto">
+        <div className="section-heading">
+          <h1 className="text-2xl font-bold font-serif w-1/3 m-auto capitalize">
+            Take back your time and simplify your life!
+          </h1>
+          <p className="text-lg font-medium font-sans pt-2">
+            Elevate your beauty and wellness business with Glosifi.
+          </p>
+        </div>
+        <div className="content">
+          <div className="two-col flex justify-between gap-10 items-center bg-slate-200 p-10 rounded-2xl">
+            <div className="left-content text-left w-1/2">
+              <h2 className="text-2xl font-semibold font-serif  capitalize">
+                Glosifi for <br /> business and freelancers
+              </h2>
+              <h3 className="text-lg font-serif pt-3 font-medium">
+                Empower Your Business, Simplify Your Workflow
+              </h3>
+              <p className="font-sans text-md text-pretty pt-1">
+                Whether you're managing a beauty salon, wellness center, or
+                working as an independent professional, Glosifi provides all the
+                tools you need to succeed. From seamless client bookings to
+                inventory management and advanced CRM, we help streamline
+                operations, boost client satisfaction, and drive growth.
+              </p>
+              <h3 className="text-lg font-serif pt-3 font-medium">
+                Freelancers, We’ve Got You Covered
+              </h3>
+              <p className="font-sans text-md text-pretty pt-1">
+                Manage your clients, schedule appointments, and build your
+                personal brand—all from one platform
+              </p>
+              <button className="bg-brown-500 text-white py-2 px-5 rounded-full mt-5">Grow My Business</button>
+            </div>
+            <div className="right-content w-1/2">
+            <img src={NinthImg} alt="rightside-img" className="h-auto"/>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

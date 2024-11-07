@@ -18,6 +18,9 @@ module.exports = {
           800: '#3e140a',
           900: '#1f0705',
         },
+        fontFamily: {
+          notoserif: ['Noto Serif', 'serif'], // Add Noto Serif font
+        },
       },
     },
   },
