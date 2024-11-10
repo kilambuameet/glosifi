@@ -7,7 +7,8 @@ import FifthImg from "../../assets/skincare.png";
 import SixthImg from "../../assets/img3.png";
 import SeventhImg from "../../assets/search-icon.png";
 import EighthImg from "../../assets/bannerBG.png";
-import NinthImg from "../../assets/info-banner.png"
+import NinthImg from "../../assets/info-banner.png";
+import TenthImg from "../../assets/booking1.png";
 import "./body.css";
 
 const Body = () => {
@@ -227,12 +228,91 @@ const Body = () => {
                 Manage your clients, schedule appointments, and build your
                 personal brand—all from one platform
               </p>
-              <button className="bg-brown-500 text-white py-2 px-5 rounded-full mt-5">Grow My Business</button>
+              <button className="bg-brown-500 text-white py-2 px-5 rounded-full mt-5">
+                Grow My Business
+              </button>
             </div>
             <div className="right-content w-1/2">
-            <img src={NinthImg} alt="rightside-img" className="h-auto"/>
+              <img src={NinthImg} alt="rightside-img" className="h-auto" />
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* new section */}
+
+      <div className="main-box mt-10">
+        <div className="section-heading para-width">
+          <h1 className="text-3xl font-serif font-semibold justify-center w-1/2 m-auto">
+            We Deliver Exceptional Development Solutions.
+          </h1>
+          <p className="text-md font-medium font-sans para-width">
+            At Glosifi, we provide tailored development solutions designed
+            specifically for beauty and wellness professionals. Our user-centric
+            platform enhances your operations and client engagement, allowing
+            you to focus on delivering exceptional services.
+          </p>
+        </div>
+        <div className="flex max-width m-auto gap-10 mt-5">
+          <div className=" flex gap-5 w-1/3">
+            <div className="img">
+              <img src={TenthImg} alt="bookingimg" className="w-20 h-auto" />
+            </div>
+            <div className="content text-left">
+              <h3 className="text-lg font-semibold font-serif">
+                Appoiment booking
+              </h3>
+              <p className="text-sm font-sans pt-2">
+                Simplify your appointment process with our intuitive appointment
+                booking system. Clients can easily book or reschedule
+                appointments, ensuring a hassle-free experience.
+              </p>
+            </div>
+          </div>
+          <div className=" flex gap-5 w-1/3">
+            <div className="img">
+              <img src={TenthImg} alt="bookingimg" className="w-20 h-auto" />
+            </div>
+            <div className="content text-left">
+              <h3 className="text-lg font-semibold font-serif">
+                Appoiment booking
+              </h3>
+              <p className="text-sm font-sans pt-2">
+                Simplify your appointment process with our intuitive appointment
+                booking system. Clients can easily book or reschedule
+                appointments, ensuring a hassle-free experience.
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-5 w-1/3">
+            <div className="img">
+              <img src={TenthImg} alt="bookingimg" className="w-20 h-auto" />
+            </div>
+            <div className="content text-left">
+              <h3 className="text-lg font-semibold font-serif">
+                Appoiment booking
+              </h3>
+              <p className="text-sm font-sans pt-2">
+                Simplify your appointment process with our intuitive appointment
+                booking system. Clients can easily book or reschedule
+                appointments, ensuring a hassle-free experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* new section */}
+
+      <div className="main-section mt-10">
+        <div className="section-heading ">
+          <h2 className="text-3xl font-semibold font-serif capitalize">
+            What our users are saying
+          </h2>
+          <p className="mt-10 w-1/2 m-auto text-md font-medium">
+            "This service was exceptional! The staff was friendly, and the
+            results were better than I expected."
+          </p>
         </div>
       </div>
     </div>
